@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:description" content="Supplying premium hotel amenities and laboratory products across Kenya. Explore our top-quality range now!" />
+  <meta name="description" content="Pure Boutique Supplies - Premium hotel amenities andtextiles supplies in Kenya. Explore our quality guest soaps, shampoos, lotions, and more." />
+  <meta name="keywords" content="hotel amenities, guest supplies, shampoo, lotion,  Pure Boutique Supplies Kenya" />
+  <meta name="author" content="Pure Boutique Supplies" />
+
+  <!-- AOS (Animate on Scroll) Library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- FontAwesome (for icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Font style -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    
+    /* Navbar Styling */
+    *{box-sizing: border-box;}
+
+   
+    .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 2px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+    }
+
+    .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+    }
+
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+    }
+
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+    }
+
+    /* Hero Section Styling */
+    .hero-section {
+      background: linear-gradient(to right, #007bff, #0056b3);
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .hero-section p {
+      font-size: 1.4rem;
+    }
+
+    .hero-section .input-group {
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    /* About Section Styling */
+    .about-section {
+      background: linear-gradient(to right, #007bff, #0056b3);
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    /* Title Styling */
+    .section-title {
+      font-size: 3rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+
+    /* Sub-title */
+    .sub-title {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ffdd57;
+      margin-top: 35px;
+    }
+
+    /* Text & List Styling */
+    .lead, .vision-text {
+      font-size: 1.4rem;
+      color: #f8f9fa;
+      line-height: 1.9;
+    }
+
+    .mission-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .mission-list li {
+      font-size: 1.4rem;
+      color: #f8f9fa;
+      margin: 12px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .mission-list i {
+      color: #ffdd57;
+      margin-right: 12px;
+      font-size: 1.6rem;
+    }
+
+    /* Button Styling */
+    .contact-btn {
+      margin-top: 30px;
+      padding: 14px 40px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-radius: 8px;
+      background-color: #ffdd57;
+      border: none;
+      color: #333;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .contact-btn:hover {
+      background-color: #ffcc00;
+      transform: scale(1.05);
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 767px) {
+      .hero-section h1 {
+        font-size: 2.5rem;
+      }
+
+      .about-section {
+        padding: 60px 20px;
+      }
+
+      .section-title {
+        font-size: 2.5rem;
+      }
+
+      .lead {
+        font-size: 1.2rem;
+      }
+
+      .mission-list li {
+        font-size: 1.2rem;
+      }
+
+      .contact-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 px-4 fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex justify-content-end" href="#">
+      <img src="images\PBSL-192x192.png" alt="Juliosky Logo" width="40" height="40" class="me-2 rounded-circle">
+      <span>Pure Boutique</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-center" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#homepage">Home Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#whychooseus">why chooseus</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          
+        <li class="nav-item">
+          <a class="nav-link" href="#Contacts">Contacts</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="hero-section text-center" id="homepage">
+  <h1>PUREBOUTIQUE SUPPLIES LIMITED</h1>
+  <p>Providing More Than Just Supplies, We Deliver Excellence</p>
+  <form>
+    <div class="input-group">
+      <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+      <div class="input-group-append">
+        <button type="button" class="btn btn-danger">Mail Us</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!-- About Us Section -->
+<section id="about" class="about-section">
+  <div class="container">
+    <h1 class="section-title" data-aos="fade-up">ABOUT US</h1>
+    <p class="lead" data-aos="fade-up" data-aos-delay="200">
+      <strong>Pure Boutique Supplies</strong> <b>specializes in delivering premium hotel amenities and textile essentials, ensuring top-tier quality and customer satisfaction. 
+      With years of expertise in hospitality and textile supply, we take pride in being a trusted name for businesses seeking excellence.</b>
+    </p>
+
+    <h2 class="sub-title" data-aos="fade-right" data-aos-delay="300">OUR MISSION</h2>
+    <ul class="mission-list">
+      <li data-aos="fade-left" data-aos-delay="400">
+        <i class="fas fa-check-circle"></i> Providing high-quality, affordable supplies to enhance guest experiences.
+      </li>
+      <li data-aos="fade-left" data-aos-delay="500">
+        <i class="fas fa-check-circle"></i> Upholding the highest hygiene and safety standards.
+      </li>
+      <li data-aos="fade-left" data-aos-delay="600">
+        <i class="fas fa-check-circle"></i> Delivering exceptional customer service with reliability.
+      </li>
+    </ul>
+
+    <h2 class="sub-title" data-aos="fade-up" data-aos-delay="700">OUR VISION</h2>
+    <p class="vision-text" data-aos="fade-up" data-aos-delay="800">
+      To be the leading supplier of hospitality and hotel textiles, setting new benchmarks in quality, innovation, and customer satisfaction.
+    </p>
+     <a href="images\pbsl flier.jpeg" download>
+    <button class="contact-btn" data-aos="zoom-in" data-aos-delay="900">Get Catalogue</button>
+</a>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title" data-aos="fade-up">Our Services</h2>
+    <p><b>We provide a wide range of services to meet your needs in the hospitality industry. Our services include premium hotel amenities, textiles, and customer care, all designed to enhance your guest experience.</b></p>
+
+    <div class="row mt-5">
+      <!-- Service 1 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-box">
+          <i class="fas fa-bed fa-4x mb-4"></i>
+          <h4>Hotel Amenities</h4>
+          <p>High-quality amenities for your hotel or resort to ensure the ultimate guest experience.</p>
+        </div>
+      </div>
+      <!-- Service 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-box">
+          <i class="fas fa-tshirt fa-4x mb-4"></i>
+          <h4>Textile Essentials</h4>
+          <p>Top-notch hotel linens, towels, and textile products for your establishment's comfort.</p>
+        </div>
+      </div>
+      <!-- Service 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-box">
+          <i class="fas fa-cogs fa-4x mb-4"></i>
+          <h4>Custom Solutions</h4>
+          <p>We offer tailor-made solutions to suit your unique business and hospitality needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section id="whychooseus" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title" data-aos="fade-up">Why Choose Us?</h2>
+    <p class="lead" data-aos="fade-up" data-aos-delay="200">At Pure Boutique Supplies, we are committed to providing high-quality, reliable, and cost-effective solutions for your hospitality business. Here's why businesses choose us.</p>
+
+    <div class="row mt-5">
+      <!-- Reason 1 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+        <div class="reason-box">
+          <i class="fas fa-shield-alt fa-4x mb-4"></i>
+          <h4>Quality Assurance</h4>
+          <p>We deliver premium-quality products that meet the highest standards in the industry.</p>
+        </div>
+      </div>
+      <!-- Reason 2 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="reason-box">
+          <i class="fas fa-thumbs-up fa-4x mb-4"></i>
+          <h4>Customer Satisfaction</h4>
+          <p>We focus on ensuring the satisfaction of our clients by providing excellent products and services.</p>
+        </div>
+      </div>
+      <!-- Reason 3 -->
+      <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+        <div class="reason-box">
+          <i class="fas fa-clock fa-4x mb-4"></i>
+          <h4>Timely Delivery</h4>
+          <p>We ensure timely delivery to meet the specific needs of your business, every time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Counter Section -->
+<section id="counter" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="section-title" data-aos="fade-up">Our Achievements</h2>
+      <p class="lead" data-aos="fade-up" data-aos-delay="200">We take pride in our accomplishments. Here's a look at some of the milestones we've reached over the years.</p>
+  
+      <div class="row mt-5">
+        <!-- Counter 1 -->
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="counter-box">
+            <i class="fas fa-users fa-3x mb-4"></i>
+            <h3 class="counter" data-count="1200">0</h3>
+            <p>Happy Clients</p>
+          </div>
+        </div>
+        <!-- Counter 2 -->
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="counter-box">
+            <i class="fas fa-clipboard-list fa-3x mb-4"></i>
+            <h3 class="counter" data-count="300">0</h3>
+            <p>Projects Completed</p>
+          </div>
+        </div>
+        <!-- Counter 3 -->
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="counter-box">
+            <i class="fas fa-cogs fa-3x mb-4"></i>
+            <h3 class="counter" data-count="15">0</h3>
+            <p>Years in Business</p>
+          </div>
+        </div>
+        <!-- Counter 4 -->
+        <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="700">
+          <div class="counter-box">
+            <i class="fas fa-trophy fa-3x mb-4"></i>
+            <h3 class="counter" data-count="50">0</h3>
+            <p>Awards Won</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="products" class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="section-title" data-aos="fade-up">Our Products</h2>
+        <p>
+          <b>Discover our premium range of hotel and hospitality supplies. Each product is designed to enhance your guests' comfort and satisfaction.</b>
+        </p>
+      </div>
+  
+      <div class="row">
+        <!-- Product Card 1 -->
+        <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="card h-100 shadow-sm">
+            <img src="images\Guest soap 25gms.jpg" class="card-img-top" alt="Hotel Towels">
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel Soaps</h5>
+              <p class="card-text">Gentle, aromatic, and designed to refresh your guests with every use.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 2 -->
+        <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="card h-100 shadow-sm">
+            <img src="images\plush towel.jpg" class="card-img-top" alt="Hotel Towels">
+            <div class="card-body">
+              <h5 class="card-title">Plush Towels</h5>
+              <p class="card-text">Soft, absorbent, and available in a range of sizes and textures.</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Product Card 3 -->
+        <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="500">
+          <div class="card h-100 shadow-sm">
+            <img src="images\Body Lotion.jpg" class="card-img-top" alt="Hotel Shampoo">
+            <div class="card-body">
+              <h5 class="card-title">Premium Shampoo</h5>
+              <p class="card-text">Nourishing formulas in eco-friendly packaging, designed for luxury stays.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="col-md-3 mb-3" data-aos="fade-up" data-aos-delay="500">
+          <div class="card h-100 shadow-sm">
+            <img src="images\Showergel..jpg" class="card-img-top" alt="Hotel Shampoo">
+            <div class="card-body">
+              <h5 class="card-title">Premium Shampoo</h5>
+              <p class="card-text">Nourishing formulas in eco-friendly packaging, designed for luxury stays.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+ 
+<section id="testimonials" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center mb-5" data-aos="fade-right">What Our Clients Say</h2>
+
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <!-- Testimonial 1 -->
+        <div class="carousel-item active">
+          <div class="card border-0 shadow-lg p-4 text-center">
+            <img src="images\lagoshotel.jpg" class="rounded-circle mx-auto mb-3" width="50" height="50" alt="Client 1">
+            <blockquote class="blockquote mb-3">
+              <p>"Pure Boutique Supplies completely transformed our guest experience. Their hotel amenities are premium quality!"</p>
+            </blockquote>
+            <footer class="blockquote-footer">Sarah N., <cite title="Company 1">Lagos Hotel</cite></footer>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="carousel-item">
+          <div class="card border-0 shadow-lg p-4 text-center">
+            <img src="images\maxland hotel.jpg" class="rounded-circle mx-auto mb-3" width="50" height="50" alt="Client 2">
+            <blockquote class="blockquote mb-3">
+              <p>"Exceptional customer service and consistently reliable supplies. Highly recommend Pure Boutique!"</p>
+            </blockquote>
+            <footer class="blockquote-footer">James M., <cite title="Company 2">Maxland Hotel</cite></footer>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="carousel-item">
+          <div class="card border-0 shadow-lg p-4 text-center">
+            <img src="images\nanyukisportsclub.jpg" class="rounded-circle mx-auto mb-3" alt="Client 3">
+            <blockquote class="blockquote mb-3">
+              <p>"They always deliver on time with impressive attention to detail. Pure Boutique is top-notch!"</p>
+            </blockquote>
+            <footer class="blockquote-footer">Janet ., <cite title="Company 3">nanyuki sports club</cite></footer>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-light pt-5 pb-4" id="Contacts">
+    <div class="container">
+      <div class="row">
+  
+        <!-- Contact Info -->
+        <div class="col-md-6 mb-4" data-aos="fade-right">
+          <h4 class="mb-3">Get in Touch</h4>
+          <p><i class="fas fa-map-marker-alt me-2 text-warning"></i> The Real Park Building, 3rd Floor, Industrial Area</p>
+          <p><i class="fas fa-phone me-2 text-warning"></i> 0727 445 545 / 0733 991 620</p>
+          <p><i class="fas fa-envelope me-2 text-warning"></i> info@pureboutiquesupplies.com</p>
+          <p><i class="fas fa-clock me-2 text-warning"></i> Mon - Fri: 8:00 AM - 5:00 PM and saturday 8:00AM - 1:00</p>
+        </div>
+  
+
+     
+        <!-- Contact Form -->
+        <div class="col-md-6" data-aos="fade-right">
+          <h4 class="mb-3">Send Us a Message</h4>
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Your Email" required>
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="3" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+  
+    <hr class="border-light">
+  
+      <!-- Embedded Google Map -->
+<div class="container-fluid">
+    <div class="map-responsive">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.785865649082!2d36.83131637482918!3d-1.3034846986841333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11f6e8c1311f%3A0x5cf78bf47b784be4!2sThe%20Real%20Park!5e0!3m2!1sen!2ske!4v1743767717992!5m2!1sen!2ske" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+  <hr class="border-light">
+      <div class="text-center mt-3">
+        <p class="mb-0">&copy; 2025 Pure Boutique Supplies. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+    
+     
+
+
+
+
+  <!-- AOS Animation Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  
+
+  <!-- Counter Section -->
+
+  
+  <!-- Counter Script -->
+  <script>
+    // Counter Functionality
+    const counters = document.querySelectorAll('.counter');
+    
+    const countUp = (counter) => {
+      const target = +counter.getAttribute('data-count');
+      let count = 0;
+      const increment = target / 200;
+      const counterInterval = setInterval(() => {
+        count += increment;
+        if (count >= target) {
+          count = target;
+          clearInterval(counterInterval);
+        }
+        counter.textContent = Math.floor(count);
+      }, 1);
+    };
+  
+    window.addEventListener('scroll', () => {
+      counters.forEach(counter => {
+        const rect = counter.getBoundingClientRect();
+        if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+          if (!counter.classList.contains('counted')) {
+            counter.classList.add('counted');
+            countUp(counter);
+          }
+        }
+      });
+    });
+  </script>
+  
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- AOS (Animate on Scroll) Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JS (before closing body tag) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- AOS Animation (optional for fade-up effects) -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
